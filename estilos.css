@@ -1,0 +1,231 @@
+html{
+  font-size: 16px;
+  color: #05364A;
+}
+
+html, body, h1, h3, h4, h5, h6, blockquote {
+  font-family: 'Source Serif Pro', serif;
+}
+
+strong {
+    font-family: 'Source Serif Pro', serif;
+    font-weight: 600;
+}
+
+p, h2, blockquote, .form-group, button {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav {
+  background-color: #255D74;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.material-icons {
+  color: white;
+}
+
+
+.carousel-caption {
+  text-align: left;
+  bottom: 10%;
+}
+
+.carousel-caption p {
+  font-size: 1.6rem;
+  padding-right: 30px;
+}
+
+.carousel-caption h1 {
+  font-size: 4rem;
+}
+
+.caption-background-first {
+  background-color: #037B50;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.caption-background-second {
+  background: #B7763B;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.caption-background-third {
+  background: #386B7F;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.carrusel-logo {
+  text-align: right;
+}
+
+.carousel-caption .filete {
+  border-right-style: solid;
+}
+
+@media only screen and (max-width: 600px) {
+  html body {
+    font-size: 14px;
+
+  }
+  .carousel-caption {
+    text-align: center;
+    bottom: 8%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 2.3rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2rem;
+    padding: 0 10px 0 10px;
+  }
+
+  .carrusel-logo {
+    margin-right: 15px;
+  }
+
+  .filete {
+    border: 0;
+  }
+
+  .caption-background-first {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .caption-background-second {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .caption-background-third {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+}
+
+section {
+  padding-top: 3rem;
+}
+
+section h2 {
+  border-left-style: solid;
+  padding-left: 5px;
+  border-color: #255D74;
+  margin-bottom: 40px;
+}
+
+.servicios {
+  padding: 15px 10px 15px 10px;
+  margin: 7px;
+  text-align: center;
+  border-style: solid;
+  border-color: #C4C4C4;
+  color: #05364A;
+}
+
+.servicios:hover {
+  border-style: solid;
+  border-color: #C4C4C4;
+  color: white;
+  background-color: #255D74;
+}
+
+#equipo h3 {
+  font-size: 1.65rem;
+  font-weight: 700;
+}
+
+#equipo .filete {
+  border-bottom-style: solid;
+  border-color: #255D74;
+  margin: 0 55px 0 55px;
+  padding: 5px 0 0 0;
+}
+
+#equipo blockquote{
+  color: #255D74;
+  font-size: 1.4rem;
+  border-left-style: solid;
+  padding-left: 20px;
+  border-color: #255D74;
+  font-weight: 600;
+}
+
+#equipo a {
+  color: #255D74;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  #equipo blockquote {
+    font-size: 1rem;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #equipo blockquote {
+    font-size: 1.45rem;
+    padding-left: 20px;
+}
+}
+
+#contacto {
+  background-color: #C4C4C4;
+}
+
+#contacto blockquote {
+  color: #255D74;
+  font-size: 1.4rem;
+  border-left-style: solid;
+  padding-left: 20px;
+  border-color: #255D74;
+  font-weight: 600;
+}
+
+#contacto button {
+  background-color: #255D74;
+}
+
+#formulario {
+  width: 50%;
+}
+
+@media only screen and (max-width: 568px) {
+  #formulario {
+    width: 100%;
+    font-size: 0.7rem;
+
+  }
+  #contacto blockquote {
+    color: #255D74;
+    font-size: 1rem;
+    border-left-style: solid;
+    padding-left: 10px;
+    border-color: #255D74;
+    font-weight: 600;
+  }
+
+}
+
+footer {
+  background-color: #255D74;
+  color: white;
+}
