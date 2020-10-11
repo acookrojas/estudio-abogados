@@ -12,7 +12,7 @@ strong {
     font-weight: 600;
 }
 
-p, h2, blockquote, .form-group, button {
+p, h2, blockquote, .form-group, button, .resume {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -28,6 +28,10 @@ nav a {
 nav a:hover {
   color: black;
   text-decoration: none;
+}
+
+.separador {
+  height: 50px;
 }
 
 .material-icons {
@@ -103,8 +107,8 @@ nav a:hover {
   }
 
   .caption-background-first {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 
   .caption-background-second {
@@ -146,6 +150,16 @@ section h2 {
   background-color: #255D74;
 }
 
+.servicios a {
+  color: #05364A;
+
+}
+
+.servicios a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 #equipo h3 {
   font-size: 1.65rem;
   font-weight: 700;
@@ -185,6 +199,51 @@ section h2 {
     font-size: 1.45rem;
     padding-left: 20px;
 }
+}
+
+.resume {
+  min-height: 130px;
+  background-color: #C4C4C4;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  padding-right: 5px;
+  text-align: center;
+}
+
+.resume ul {
+  padding-left: 0px;
+}
+
+.resume li {
+    list-style-type: none;
+}
+
+.resume .carrera {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.resume .universidad {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.resume .info {
+  line-height: 10%;
+}
+
+.equipo h2 {
+    border-left-style: none;
+    margin-bottom: 15px;
+}
+
+.equipo .filete {
+  border-bottom-style: solid;
+  border-color: #255D74;
+  margin: 0 55px 0 55px;
+  padding: 5px 0 0 0;
 }
 
 #contacto {
