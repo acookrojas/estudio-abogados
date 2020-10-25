@@ -41,7 +41,7 @@ nav a:hover {
 
 .carousel-caption {
   text-align: left;
-  bottom: 10%;
+  bottom: 15%;
 }
 
 .carousel-caption p {
@@ -78,6 +78,47 @@ nav a:hover {
 .carousel-caption .filete {
   border-right-style: solid;
 }
+
+@media only screen and (min-width: 1300px; max-width: 1499px;) {
+  .carousel-caption {
+    /*text-align: center;*/
+    bottom: 18%;
+  }
+  .carousel-caption p {
+    padding-right: 60px;
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 1500px; max-width: 1599px;) {
+  .carousel-caption {
+    /*text-align: center;*/
+    bottom: 22%;
+  }
+  .carousel-caption p {
+    padding-right: 80px;
+    padding-left: 30px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  html body {
+    font-size: 18px;
+  }
+
+  .carousel-caption {
+    /*text-align: center;*/
+    bottom: 28%;
+  }
+  .carousel-caption p {
+    padding-right: 100px;
+    padding-left: 30px;
+  }
+
+  .carousel-caption h1 {
+    padding-right: 30px;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   html body {
